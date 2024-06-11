@@ -65,7 +65,7 @@ const Form = () => {
         onChange={handleChange}
       ></textarea>
     
-      <button className="w-[80%] font-bold text-white bg-slate-900 p-5 text-2xl sm:text-2xl xs:text-4xl xs:py-7">
+      <button className="w-[80%] font-bold text-white bg-slate-900 p-5 text-2xl sm:text-2xl xs:text-4xl xs:py-6">
         Submit
       </button>
       </form>
