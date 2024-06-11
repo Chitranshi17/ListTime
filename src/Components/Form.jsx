@@ -47,25 +47,25 @@ const Form = () => {
 
 
   return (
-    <div className="w-[90%] h-[100%] flex items-center justify-center">
-      <form action="" className="w-[100%] h-[100%] flex items-center justify-around flex-col" onSubmit={handleSubmit}>
+    <div className="w-[90%] h-[100%] flex items-center justify-center  md:w-[100%] sm:w-[100%] xs:w-[100%]">
+      <form action="" className="w-[100%] h-[100%] flex items-center justify-around flex-col  md:w-[100%] sm:w-[100%]" onSubmit={handleSubmit}>
       <input
         type="text"
         placeholder="Enter Title Here"
-        className="w-[80%] p-5 text-xl"
+        className="w-[80%] p-5 text-xl  sm:text-2xl xs:text-3xl "
         name='title'
         value={title}
         onChange={handleChange}
       />
       <textarea
         placeholder="Enter Description Here"
-        className="w-[80%] p-5 text-xl"
+        className="w-[80%] p-5 text-xl sm:text-2xl xs:text-3xl"
         name='description'
         value={description}
         onChange={handleChange}
       ></textarea>
     
-      <button className="w-[80%] font-bold text-white bg-slate-900 p-5 text-2xl">
+      <button className="w-[80%] font-bold text-white bg-slate-900 p-5 text-2xl sm:text-2xl xs:text-4xl xs:py-7">
         Submit
       </button>
       </form>

@@ -47,7 +47,7 @@ const ListGroup = () => {
 
 
   return (
-    <ul  className='w-[80%] h-[100%] flex items-center bg-slate-900 justify-center py-3 flex-col overflow-y-scroll'>
+    <ul  className='w-[80%] h-[100%] flex items-center bg-slate-900 justify-center py-3 flex-col overflow-y-scroll lg:w-[90%] md:w-[100%] sm:w-[100%] xs:w-[90%]'>
       {
         allTodos.map(todo => <ListItems key={todo._id} todo={todo}/>)
       }
