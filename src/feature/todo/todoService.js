@@ -3,7 +3,6 @@ import axios from "axios";
 // const API_URL = "/api/todo";
 const API_URL = "https://listtimes.onrender.com";
 
-console.log(url)
 export const fetchTodos = async() => {
   const response = await axios.get(API_URL + '/api/todo');
   return response.data
